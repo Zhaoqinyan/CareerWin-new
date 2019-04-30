@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.career.careerwin.VideoActivity"
+    android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/career_education_videos"
+                android:background="#C8BC86  "
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/video1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/textview_border"
+                android:ems="10"
+                android:text="@string/future_built1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+            <TextView
+                android:id="@+id/video2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:ems="10"
+                android:text="@string/career_education_class_kickoff_video"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/job_hunting_videos"
+                android:background="#C8BC86"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/video3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:ems="10"
+                android:text="@string/ted_talk_how_to_make_the_job_search_successful"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+            <TextView
+                android:id="@+id/video4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:ems="10"
+                android:text="@string/how_to_stay_motivated_when_job_hunting"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/interview_skill_videos"
+                android:background="#C8BC86  "
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/video5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:ems="10"
+                android:text="@string/the_best_job_interview_preparation_video"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+            <TextView
+                android:id="@+id/video6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:ems="10"
+                android:text="@string/how_to_answer_tell_me_about_yourself"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CareerWin</string>
+    <string name="e_book">E-Book</string>
+    <string name="article">Article</string>
+    <string name="video">Video</string>
+    <string name="web_link">Web Link</string>
+    <string name="suggested_books">Suggested Books</string>
+    <string name="newly_published_books">Newly Published Books</string>
+    <string name="book_of_the_week">Book of The Week</string>
+    <string name="career_education_videos">Career Education Videos</string>
+    <string name="https_youtube_com">https://youtube.com</string>
+    <string name="job_hunting_videos">Job Hunting Videos</string>
+    <string name="interview_skill_videos">Interview Skill Videos</string>
+    <string name="https_youku_com">https://youku.com/</string>
+    <string name="string_articles_on_professional_development" />
+    <string name="articles_on_interview_tips">Articles on Interview Tips</string>
+    <string name="https_indeed_com">https://Indeed.com/</string>
+    <string name="https_monster_com">https://Monster.com</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="articles_on_professional_development">Articles on Professional Development</string>
+    <string name="teacher_professional_development1">Teacher Professional Development</string>
+    <string name="professional_identity_development">Professional Identity Development</string>
+    <string name="professional_development_of_medical_students">Professional Development of Medical Students</string>
+    <string name="writing_interview_protocols_and_conducting_interviews">Writing Interview Protocols</string>
+    <string name="winning_interview_skills">Winning Interview Skills</string>
+    <string name="strategies_of_effective_interviewing">Strategies of Effective Interviewing</string>
+    <string name="https_linkedin_com">https://Linkedin.com</string>
+    <string name="career_education_class_kickoff_video">
+        <a href="https://www.youtube.com/watch?v=KevtDOyJcu0&amp;t=88s">Career Education Class Kickoff Video</a>
+    </string>
+
+    <string name="ted_talk_how_to_make_the_job_search_successful">
+        <a href="https://www.youtube.com/watch?v=AbA3YWBuWXA">TED TALK: How to make the job search successful?</a>
+    </string>
+
+    <string name="the_best_job_interview_preparation_video">
+        <a href="https://www.youtube.com/watch?v=aAHKkBxrVoY&amp;t=40s">The Best Job Interview Preparation Video</a>
+    </string>
+
+    <string name="how_to_answer_tell_me_about_yourself">
+        <a href="https://www.youtube.com/watch?v=MmFuWmzeiDs&amp;t=200s">How to Answer: Tell Me About Yourself</a>
+    </string>
+
+    <string name="how_to_stay_motivated_when_job_hunting">
+        <a href="https://www.youtube.com/watch?v=BJVtRdwUNF4">How To Stay Motivated When Job Hunting</a>
+    </string>
+
+    <string name="future_built1">
+        <a href="https://www.youtube.com/watch?v=CBQTFhuz6T4">Future Built: Career Education</a>
+    </string>
+</resources>

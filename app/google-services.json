@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "24303842135",
+    "firebase_url": "https://careerwin-f6a3d.firebaseio.com",
+    "project_id": "careerwin-f6a3d",
+    "storage_bucket": "careerwin-f6a3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24303842135:android:1770d0d9a0df333f",
+        "android_client_info": {
+          "package_name": "com.career.careerwin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24303842135-d02lvs00ilqu41m930khh6uo25g4u7q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.career.careerwin",
+            "certificate_hash": "18e71325dab7eff97cb0a45da4551fd903852a44"
+          }
+        },
+        {
+          "client_id": "24303842135-5k2oeku73utbavd4nfk6jpotemf5eg58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCUoWlueEdAr5G0-emdVZkf53n5fxgqKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24303842135-5k2oeku73utbavd4nfk6jpotemf5eg58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
