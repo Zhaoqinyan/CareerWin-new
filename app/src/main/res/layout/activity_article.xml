@@ -1,99 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg"
     tools:context="com.career.careerwin.ArticleActivity">
 
-   <LinearLayout
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:orientation="vertical"
-       android:layout_weight="1">
 
-       <EditText
-           android:id="@+id/textView"
-           android:layout_width="match_parent"
-           android:layout_height="80dp"
-           android:background="#C8BC86  "
-           android:text="@string/articles_on_professional_development"
-           android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-           android:inputType=""
-           android:importantForAutofill="no" tools:targetApi="o" />
-
-       <EditText
-           android:id="@+id/textView5"
-           android:layout_width="match_parent"
-           android:layout_height="60dp"
-           android:background="@drawable/textview_border"
-           android:inputType="textMultiLine"
-           android:text="@string/teacher_professional_development1"
-           android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
-           android:importantForAutofill="no" tools:targetApi="o"/>
-
-       <EditText
-           android:id="@+id/textView4"
-           android:layout_width="match_parent"
-           android:layout_height="60dp"
-           android:background="@drawable/textview_border"
-           android:inputType="textMultiLine"
-           android:text="@string/professional_identity_development"
-           android:importantForAutofill="no" tools:targetApi="o"/>
-
-        <EditText
-            android:id="@+id/textView6"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@drawable/textview_border"
-            android:inputType="textMultiLine"
-            android:text="@string/professional_development_of_medical_students"
-            android:importantForAutofill="no" tools:targetApi="o"/>
-   </LinearLayout>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+          >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_weight="1">
-
-        <EditText
-            android:id="@+id/textView2"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:background="#C8BC86    "
-            android:text="@string/articles_on_interview_tips"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:background="#C8BC86  "
+            android:importantForAutofill="no"
             android:inputType=""
-            android:importantForAutofill="no" tools:targetApi="o" />
+            android:text="@string/articles_on_professional_development"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:targetApi="o" />
 
-        <EditText
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@drawable/textview_border"
-            android:inputType="textMultiLine"
-            android:text="@string/writing_interview_protocols_and_conducting_interviews"
-            android:importantForAutofill="no" tools:targetApi="o"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
 
-        <EditText
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@drawable/textview_border"
-            android:inputType="textMultiLine"
-            android:text="@string/winning_interview_skills"
-            android:importantForAutofill="no" tools:targetApi="o"/>
+            <!--
+                        <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/textview_border"
+                        android:importantForAutofill="no"
+                        android:text="@string/teacher_professional_development"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        tools:targetApi="o" />
 
-        <EditText
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@drawable/textview_border"
-            android:inputType="textMultiLine"
-            android:text="@string/strategies_of_effective_interviewing"
-            android:importantForAutofill="no" tools:targetApi="o"/>
-    </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/textview_border"
+                        android:importantForAutofill="no"
+                        android:text="@string/professional_identity_development"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        tools:targetApi="o" />
 
-</LinearLayout>
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/textview_border"
+                        android:importantForAutofill="no"
+                        android:text="@string/professional_development_of_medical_students"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        tools:targetApi="o" />
+                        -->
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#C8BC86    "
+                        android:importantForAutofill="no"
+                        android:inputType=""
+                        android:text="@string/articles_on_interview_tips"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        tools:targetApi="o" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+
+  <!--                  <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/textview_border"
+                        android:importantForAutofill="no"
+                        android:text="@string/writing_interview_protocols_and_conducting_interviews"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        tools:targetApi="o" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/textview_border"
+                        android:importantForAutofill="no"
+                        android:text="@string/winning_interview_skills"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        tools:targetApi="o" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/textview_border"
+                        android:importantForAutofill="no"
+                        android:text="@string/strategies_of_effective_interviewing"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        tools:targetApi="o" /> -->
+
+                </LinearLayout>
+
+            </LinearLayout>
